@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: droid-serif;
+  src: url(../assets/fonts/droid-serif.regular.ttf);
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+  backdrop-filter: blur(5px);
+}
+
+.imgBack {
+  position: absolute;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  transform: scale(1.1);
+  filter: blur(10px) brightness(0.5);
+}
+
+.top-half {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+}
+
+.bg-roleta {
+  background: url("/roleta.svg") no-repeat;
+  background-position: center;
+  background-size: auto;
+}
+
+.bg-gif {
+  background: url("/video.gif");
+  background-position: center;
+  background-size: auto;
+}
+
+.font-droid {
+  font-family: droid-serif;
+}
+
+.text-shadow {
+  text-shadow: -2px -2px #0006;
+}

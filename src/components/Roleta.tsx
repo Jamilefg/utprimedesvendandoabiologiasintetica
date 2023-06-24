@@ -219,7 +219,7 @@ const Roleta: React.FC = () => {
             style={{ pointerEvents: "none" }}
             draggable="false"
             className="absolute z-15 w-[8rem] right-[4rem] top-[-20rem]"
-            src="/girearoletaofc.gif"
+            src="/girearoletaofcc.gif"
             width="600"
             height="600"
             alt=""

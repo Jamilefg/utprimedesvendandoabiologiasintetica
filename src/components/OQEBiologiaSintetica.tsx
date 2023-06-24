@@ -13,7 +13,7 @@ export const OQEBiologiaSintetica = ({
       className="w-[60rem] text-white flex items-start desktop:ml-[-15rem] desktop:mt-[15rem] justify-center flex-col gap-[4]"
       style={!visible ? { display: "none" } : {}}
     >
-      <h2 className="font-droid text-[2rem] mt-[7rem] desktop:text-[3rem] text-center ml-48">
+      <h2 className="font-droid text-[2rem] mt-[7rem] desktop:mt-[-2rem] desktop:text-[3rem] text-center ml-48">
         O que é Biologia Sintética?
       </h2>
 

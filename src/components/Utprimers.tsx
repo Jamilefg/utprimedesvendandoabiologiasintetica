@@ -12,7 +12,7 @@ export const Utprimers = ({ visible }: UtprimersProps) => {
       style={!visible ? { display: "none" } : {}}
     >
       <Image
-        className="absolute w-[50rem] mr-[10rem] desktop:w-[110rem] desktop:right-4 right-[-4rem] top-[0rem] desktop:mr-0"
+        className="absolute w-[50rem] mr-[10rem] desktop:w-[60rem] desktop:right-4 right-[-4rem] top-[0rem] desktop:mr-[12.5rem]"
         src="/utprimers.svg"
         width="2920"
         height="2080"
